@@ -1,6 +1,6 @@
 class Triangle
     attr_reader :hypotenuse, :adjacent, :opposite, :sides
-end 	
+
   def initialize(hypotenuse, adjacent, opposite)
     @hypotenuse = hypotenuse
     @adjacent = adjacent
@@ -26,6 +26,7 @@ end
 
 class TriangleError < StandardError
   def message
-    "That's no triangle. Of that I'm sure."
+    "That aint no triangle my friend"
   end
+end
 end
